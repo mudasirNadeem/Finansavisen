@@ -1,4 +1,9 @@
-
+body{
+    font-family: 'Sherika Medium', sans-serif;
+}
+.sherika-regular{
+    font-family: 'sherila_regular', sans-serif;
+}
 .border-white{
     border: white solid 1px !important;
     width: 65px;
@@ -6,9 +11,30 @@
     color: white;
     border-radius: 10px;
 }
-.fs-13{
+.fs-21-05{
+    font-size: 21.05px !important;
+}
+.fs-24{
+    font-size: 24px !important;
+}
+.fs-16-3{
+    font-size: 16.3px;
+}
+.fs-16-45{
+    font-size: 16.45px !important;
+}
+ .fs-20{
+    font-size: 20px !important;
+ }
+ .fs-30{
+    font-size: 30px !important;
+ }
+ .fs-18{
+    font-size: 18px;
+ }
+.fs-20{
     font-size: 20px;
-    font-family: Sherika;
+    
 }
 .fs-16{
     font-size: 16px;
@@ -24,4 +50,27 @@ body{
 }
 .fs-10{
     font-size: 12px;
+}
+
+.fs-70{
+    font-size: 70px;
+  }
+  .top-100 {
+  top: 91%!important;
+}
+.mt-120{
+margin-top: 120px;
+}
+.partnee{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 150px;
+}
+
+@media (max-width: 767px) {
+.mt-120{
+margin-top: 80px;
+}
 }
